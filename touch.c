@@ -10,4 +10,10 @@ int main(int argc, char *argv[])
     printf(2, "Touch files ...\n");
     exit();
   }
+    for(i = 1; i < argc; i++){
+    if(mkfile(argv[i]) < 0){
+      printf(2, "touch: %s failed to create\n", argv[i]);
+      break;
+    }
+  }    
 }
