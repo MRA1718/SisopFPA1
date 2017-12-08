@@ -7,7 +7,7 @@
 
 int main(int argc, char *argv[])
 {
-	int fd;
+	int fp;
 	if(argc < 2){
 	printf(2, "Touch files write 2 arguments.\n");
 	}
