@@ -22,5 +22,5 @@ main(int argc, char *argv[])
     }
   }
 
-  exit(); // jika kondisi diatas tidak ada yg terpenuhi maka cd di eksekusi dan program exit
+  exit();
 }
