@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
 		exit();
 	}
 	while ((r = read(fd, buf, sizeof(buf))) > 0){
-		w = write(dfd, buf, r);
+		w = write(fd1, buf, r);
 		if (w != r || w<0) break;
 	}
 	if (r<0){
